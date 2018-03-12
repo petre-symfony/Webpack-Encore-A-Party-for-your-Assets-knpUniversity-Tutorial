@@ -10,6 +10,8 @@ Encore
 
     // will create public/build/rep_log.js and public/build/app.css
     .addEntry('rep_log', './public/assets/js/RepLogApp.js')
+    
+    .enableBuildNotifications();
 ;
 
 // export the final configuration
