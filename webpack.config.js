@@ -9,7 +9,7 @@ Encore
     .setPublicPath('/build')
 
     // will create public/build/rep_log.js and public/build/app.css
-    .addEntry('rep_log', './public/assets/js/RepLogApp.js')
+    .addEntry('rep_log', './public/assets/js/rep_log.js')
     
     .enableBuildNotifications();
 ;
