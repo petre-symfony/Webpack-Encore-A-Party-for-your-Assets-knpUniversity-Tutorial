@@ -13,7 +13,9 @@ Encore
     .addEntry('login', './public/assets/js/login.js')
     .addEntry('layout', './public/assets/js/layout.js')
     
-    .enableBuildNotifications();
+    .enableBuildNotifications()
+    
+    .autoProvidejQuery();
 ;
 
 // export the final configuration
