@@ -17,7 +17,10 @@ Encore
     .enableBuildNotifications()
     
     .autoProvidejQuery()
-    .addPlugin(new CopyWebpackPlugin());
+    .addPlugin(new CopyWebpackPlugin([
+      //copies to {output}/static
+      {from: './assets/static', to: 'static'}
+    ]));
 ;
 
 // export the final configuration
