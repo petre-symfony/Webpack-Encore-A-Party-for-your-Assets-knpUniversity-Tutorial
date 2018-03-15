@@ -21,4 +21,4 @@ Encore
 
 // export the final configuration
 module.exports = Encore.getWebpackConfig();
-console.log(module.exports);
+module.exports.plugins.push(new CopyWebpackPlugin());
