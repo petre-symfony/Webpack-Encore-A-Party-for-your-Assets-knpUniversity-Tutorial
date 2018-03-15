@@ -16,9 +16,10 @@ Encore
     
     .enableBuildNotifications()
     
-    .autoProvidejQuery();
+    .autoProvidejQuery()
+    .addPlugin(new CopyWebpackPlugin());
 ;
 
 // export the final configuration
 module.exports = Encore.getWebpackConfig();
-module.exports.plugins.push(new CopyWebpackPlugin());
+//module.exports.plugins.push(new CopyWebpackPlugin());
