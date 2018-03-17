@@ -9,10 +9,12 @@ Encore
     // the public path used by the web server to access the previous directory
     .setPublicPath('/build')
 
-    // will create public/build/rep_log.js and public/build/app.css
+    
+    .createSharedEntry('layout', './assets/js/layout.js')
     .addEntry('rep_log', './assets/js/rep_log.js')
+    // will create public/build/login.js and public/build/login.css
     .addEntry('login', './assets/js/login.js')
-    .addEntry('layout', './assets/js/layout.js')
+    
     
     .enableBuildNotifications()
     
