@@ -1,1 +1,1 @@
-module.exports = Routing;
+export default Routing;

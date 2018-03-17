@@ -1,8 +1,8 @@
 'use strict';
 import Helper from './RepLogHelper';
-const $ = require('jquery');
-const swal = require('sweetalert2');
-const Routing = require('./Routing');
+import $ from 'jquery';
+import swal from 'sweetalert2';
+import Routing from './Routing';
 
 
 let HelperInstances = new WeakMap();
@@ -211,5 +211,5 @@ const rowTemplate = (repLog) => `
 </tr>
 `;
 
-module.exports = RepLogApp;
+export default RepLogApp;
 
