@@ -24,7 +24,9 @@ Encore
       {from: './assets/static', to: 'static'}
     ]))
     .enableSassLoader()
-    .enableSourceMaps(!Encore.isProduction());
+    .enableSourceMaps(!Encore.isProduction())
+    .cleanupOutputBeforeBuild()
+    .enableVersioning();
 ;
 
 // export the final configuration
