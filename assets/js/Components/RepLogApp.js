@@ -1,5 +1,5 @@
 'use strict';
-import Helper from './RepLogHelper';
+import {Helper, foo} from './RepLogHelper';
 import $ from 'jquery';
 import swal from 'sweetalert2';
 import Routing from './Routing';
